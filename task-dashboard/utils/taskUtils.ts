@@ -99,7 +99,7 @@ export function exportTasks(tasks: Task[]): void {
   URL.revokeObjectURL(url);
 }
 
-// Read a .json file and make sure every task in it looks right
+
 export function parseImportedTasks(text: string): Task[] {
   const data = JSON.parse(text);
   if (!Array.isArray(data)) {
