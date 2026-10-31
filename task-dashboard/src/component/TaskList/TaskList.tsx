@@ -1,4 +1,4 @@
-import type { TaskListProps } from '../../types';
+import type { TaskListProps } from '../../../types';
 import TaskItem from './TaskItem';
 
 function TaskList({ tasks, onStatusChange, onDelete, onMove }: TaskListProps) {

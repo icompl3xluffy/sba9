@@ -1,5 +1,5 @@
-import type { TaskItemProps, TaskStatus } from '../../types';
-import { formatDate } from '../../utils/taskUtils';
+import type { TaskItemProps, TaskStatus } from '../../../types';
+import { formatDate } from '../../../utils/taskUtils';
 
 function TaskItem({
   task,
